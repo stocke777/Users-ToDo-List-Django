@@ -1,0 +1,12 @@
+{% extends "front/base.html" %}
+    {%block content%}
+        <div class = "localtodo">
+            <div class="container pt-5">
+                {%for post in posts%}
+                <ul>
+                <li class = "h4">{{post.content}} <span> <a class = "text-danger cross" href="/delete/{{post.id}}"> X </a> </span></li>
+                </ul>
+                {%endfor%}
+            </div>
+        </div> 
+    {%endblock content%}

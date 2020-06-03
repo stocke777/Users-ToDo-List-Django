@@ -1,0 +1,13 @@
+{%extends 'front/base.html'%}
+
+{%block content%}
+
+    <form method = "POST" class = "container form-group">
+        {%csrf_token%}
+        <legend class="text-black">You have been logged Out!!!</legend>
+       
+        <p>Login Again? <span><a href = "{%url 'login' %}" class = "text-blue">Sign In</a></span></p>
+    </form>
+
+
+{%endblock content%}

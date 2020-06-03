@@ -1,0 +1,14 @@
+.local{
+    background-image: url('cs.jpg');
+    background-size: cover; height:665px;
+}
+
+.localtodo{
+    color: rgb(255, 255, 255);
+    background-image: url('glass.jpg');
+    background-size: cover; height:665px;
+}
+
+.cross:hover{
+    text-decoration: none;
+}
