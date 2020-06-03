@@ -48,7 +48,7 @@ def create(request):
             post.save()
             return redirect('todo')
         else:
-            print('nahi hua')
+            print('nahi hua solve issue')
     else:
         form = CreatePost()
     return render(request, "users/post_form.html", {'form':form})
